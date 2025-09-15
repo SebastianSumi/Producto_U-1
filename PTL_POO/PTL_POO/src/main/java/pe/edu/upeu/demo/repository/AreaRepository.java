@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AreaRepository {
 
-    private List<Area> areas = new ArrayList<>();
+    protected List<Area> areas = new ArrayList<>();
 
     public List<Area> findAll() {
         return areas;

@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TareaRepository {
 
-    private List<Tarea> tareas = new ArrayList<>();
+    protected List<Tarea> tareas = new ArrayList<>();
 
     public List<Tarea> findAll() {
         return tareas;

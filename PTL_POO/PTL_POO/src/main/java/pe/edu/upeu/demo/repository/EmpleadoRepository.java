@@ -7,7 +7,7 @@ import java.util.List;
 
 public class EmpleadoRepository {
 
-    private List<Empleado> empleados = new ArrayList<>();
+    protected List<Empleado> empleados = new ArrayList<>();
 
     public List<Empleado> findAll() {
         return empleados;
