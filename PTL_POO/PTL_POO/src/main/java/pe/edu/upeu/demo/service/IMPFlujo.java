@@ -1,9 +1,8 @@
 package pe.edu.upeu.demo.service;
 
+import org.springframework.stereotype.Service;
 import pe.edu.upeu.demo.model.Flujo;
 import pe.edu.upeu.demo.repository.FlujoRepository;
-
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
