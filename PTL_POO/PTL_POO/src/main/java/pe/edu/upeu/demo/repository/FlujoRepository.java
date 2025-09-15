@@ -7,7 +7,7 @@ import java.util.List;
 
 public class FlujoRepository {
 
-    private List<Flujo> flujos = new ArrayList<>();
+    protected List<Flujo> flujos = new ArrayList<>();
 
     public List<Flujo> findAll() {
         return flujos;
