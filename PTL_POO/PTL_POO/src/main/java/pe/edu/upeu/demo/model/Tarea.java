@@ -3,6 +3,8 @@ package pe.edu.upeu.demo.model;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import pe.edu.upeu.demo.enums.EstadoTarea;
+import pe.edu.upeu.demo.enums.Observacion;
 import pe.edu.upeu.demo.enums.SatisfacionPuntaje;
 
 import java.util.ArrayList;
@@ -21,6 +23,7 @@ public class Tarea {
     private String fecha_fin;
     private String duracion;
     private ArrayList<Empleado> participantes;
-    private ArrayList<String> observaciones;
+    private ArrayList<Observacion> observaciones;
     private SatisfacionPuntaje puntaje;
+    private EstadoTarea estado;
 }

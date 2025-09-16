@@ -1,7 +1,6 @@
 package pe.edu.upeu.demo.service;
 
 import pe.edu.upeu.demo.model.Area;
-import pe.edu.upeu.demo.model.Tarea;
 
 import java.util.List;
 

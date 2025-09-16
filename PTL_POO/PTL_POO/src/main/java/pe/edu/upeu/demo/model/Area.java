@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import pe.edu.upeu.demo.enums.EstadoArea;
+import pe.edu.upeu.demo.enums.Observacion;
 
 import java.util.ArrayList;
 
@@ -19,5 +20,5 @@ public class Area {
     private Empleado admin;
     private ArrayList<Empleado> empleados;
     private double puntaje_promedio;
-    private ArrayList<String> lista_observaciones;
+    private ArrayList<Observacion> observaciones;
 }

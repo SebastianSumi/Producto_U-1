@@ -3,7 +3,7 @@ package pe.edu.upeu.demo.enums;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public enum Observaciones {
+public enum Observacion {
     NO_JUSTIFICADO("No Justificado"),
     JUSTIFICADO("Justificado"),
     NO_TERMINADO("Trabajo No Terminado"),
